@@ -1,0 +1,20 @@
+site_name: HintBook
+site_description: Personal engineering knowledge base
+site_author: Miguel
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Runbooks:
+      - Deploy: runbooks/deploy.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
