@@ -1,9 +1,25 @@
 site_name: HintBook
-site_description: Personal engineering knowledge base
-site_author: Miguel
+site_author: Mikhail Panov
+repo_url: https://github.com/panovmikhail/hintbook
+
+
+strict: true
 
 theme:
   name: material
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    primary: teal
+    scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    primary: teal
+    scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
 
 nav:
   - Home: index.md
