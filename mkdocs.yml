@@ -25,9 +25,13 @@ plugins:
   - search
 
 markdown_extensions:
+  - markdown_include.include
+  - codehilite:
+      css_class: highlight
   - admonition
   - toc:
       permalink: true
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
