@@ -1,5 +1,5 @@
 mkdocs==1.6.1
-mkdocs-material==9.5.45
+mkdocs-material==7.1.8
 mkdocs-github-admonitions-plugin==0.1.1
 markdown_include==0.8.1
 pygments==2.19.2
